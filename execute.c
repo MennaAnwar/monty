@@ -10,7 +10,7 @@ int execute(char *content, stack_t **stack, unsigned int line_number)
 {
 	instruction_t inst[] = {
 				{"push", push}, {"pall", pall},
-				{"pint", pint},
+				{"pint", pint}, {"pop", pop},
 				{NULL, NULL}
 				};
 	unsigned int i = 0;
