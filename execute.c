@@ -3,7 +3,7 @@
 * execute - executes the opcode
 * @content: line content
 * @stack: head linked list - stack
-* @line_number line_number
+* @line_number: line_number
 * Return: no return
 */
 int execute(char *content, stack_t **stack, unsigned int line_number)

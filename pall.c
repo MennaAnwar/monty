@@ -5,13 +5,13 @@
  * @line_number: no used
  * Return: no return
 */
-void pall(stack_t **head, 
+void pall(stack_t **head,
 	__attribute__((unused)) unsigned int line_number)
 {
 	stack_t *current;
 
 	current = *head;
-	
+
 	if (current == NULL)
 		return;
 	while (current)

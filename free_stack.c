@@ -9,7 +9,7 @@ void free_stack(stack_t *head)
 	stack_t *current;
 
 	current = head;
-	
+
 	while (head)
 	{
 		current = head->next;
