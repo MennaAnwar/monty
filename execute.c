@@ -13,6 +13,7 @@ int execute(char *content, stack_t **stack, unsigned int line_number)
 				{"pint", pint}, {"pop", pop},
 				{"swap", _swap}, {"add", add},
 				{"nop", nop}, {"sub", sub},
+				{"div", divide}, {"mul", mul},
 				{NULL, NULL}
 				};
 	unsigned int i = 0;
