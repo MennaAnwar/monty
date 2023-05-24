@@ -11,6 +11,7 @@ int stack_size(stack_t *head)
 {
 	int size = 0;
 	stack_t *h;
+
 	h = head;
 
 	while (h)

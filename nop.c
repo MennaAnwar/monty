@@ -2,7 +2,7 @@
 /**
   *nop - nothing
   *@head: stack head
-  *@line_number line_number
+  *@line_number: line_number
   *Return: no return
  */
 void nop(__attribute__((unused)) stack_t **head,
