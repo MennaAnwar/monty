@@ -5,7 +5,7 @@
  * @line_number: line_number
  * Return: no return
 */
-void _stack(__attribute__((unused)) stack_t **head, 
+void _stack(__attribute__((unused)) stack_t **head,
 	__attribute__((unused)) unsigned int line_number)
 {
 	cmd.s_q_flag = 0;
@@ -24,9 +24,9 @@ void addStack(stack_t **head, int n)
 
 	tmp = *head;
 	new_node = malloc(sizeof(stack_t));
-	
+
 	if (new_node == NULL)
-	{ 
+	{
 		printf("Error\n");
 		exit(0);
 	}

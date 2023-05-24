@@ -1,6 +1,7 @@
 #include "monty.h"
 /**
  * terminate - frees stack and memory and exits the program
+ * @head: stack head
  * Return: no return
 */
 void terminate(stack_t *head)
