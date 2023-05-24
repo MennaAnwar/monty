@@ -15,6 +15,7 @@ int execute(char *content, stack_t **stack, unsigned int line_number)
 				{"nop", nop}, {"sub", sub},
 				{"div", divide}, {"mul", mul},
 				{"mod", mod},
+				{"stack", _stack}, {"queue", _queue},
 				{NULL, NULL}
 				};
 	unsigned int i = 0;
