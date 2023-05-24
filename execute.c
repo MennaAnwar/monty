@@ -1,9 +1,9 @@
 #include "monty.h"
 /**
-* content: line content
 * execute - executes the opcode
-* stack: head linked list - stack
-* line_number line_number
+* @content: line content
+* @stack: head linked list - stack
+* @line_number line_number
 * Return: no return
 */
 int execute(char *content, stack_t **stack, unsigned int line_number)
@@ -30,7 +30,7 @@ int execute(char *content, stack_t **stack, unsigned int line_number)
 	}
 	if (op && inst[i].opcode == NULL)
 	{
-		fprintf(stderr, "L%d: unknown instruction %s\n",line_number, op);
+		fprintf(stderr, "L%d: unknown instruction %s\n", line_number, op);
 		terminate(*stack);
 	}
 	return (1);
