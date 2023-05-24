@@ -70,5 +70,6 @@ void _stack(stack_t **head, unsigned int line_number);
 void addStack(stack_t **head, int n);
 void pint(stack_t **head, unsigned int line_number);
 void pop(stack_t **head, unsigned int line_number);
+void _swap(stack_t **head, unsigned int line_number);
 
 #endif
