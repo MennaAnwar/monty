@@ -57,7 +57,7 @@ typedef struct command
 } cmd_line;
 extern cmd_line cmd;
 
-int execute(char *content, stack_t **head, unsigned int counter);
+int execute(char *content, stack_t **head, unsigned int line_number);
 void free_stack(stack_t *head);
 int stack_size(stack_t *head);
 void terminate();
