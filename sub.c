@@ -2,7 +2,7 @@
 /**
   *sub- sustration
   *@head: stack head
-  *@line_number line_number
+  *@line_number: line_number
   *Return: no return
  */
 void sub(stack_t **head, unsigned int line_number)
