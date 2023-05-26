@@ -3,7 +3,6 @@
 /**
  * stack_size - gets size of stack
  * @head: stack head
- * @counter: line_number
  * Return: no return
 */
 
